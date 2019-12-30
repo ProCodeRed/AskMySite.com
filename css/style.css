@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{box-sizing: border-box;}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.row-flex-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.container{ max-width: 1170px; margin: auto;}
+/* -------------------------------------------------------------- */
+.main-nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius:3px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+}
+.main-nav li:hover{background-color:#ebc00f;}
+.main-nav li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #222222;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.main-nav ul{
+    padding: 0px;
+    margin: 0px;
+}
+.slogan{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #252523;
+}
+.blacklogos img{padding-right: 20px;}
+p.wiseInvestment{
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 45px;
+    color: #252523;
+}
+p.quoteP{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 29.63px;
+    color: #252523;
+}
