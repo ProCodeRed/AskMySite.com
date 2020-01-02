@@ -72,18 +72,81 @@ and (max-device-width : 480px) {
 
 }
 
-
-/* Smartphones (portrait) ----------- */
 @media only screen 
-and (max-width : 320px) {
-/* Styles */
+and (min-device-width : 481px) 
+and (max-device-width : 767px){
+    .main{position: unset !important;}
+    .row.upperHeader{ width: 100% !important;}
+    .col.col-sm-m{position: absolute !important; top: 3% !important; left: 0% !important; right: 0% !important; text-align: center !important;}
+    .row.upperHeader .col{ display: block !important; width: 100% !important;}
+    .upperHeader{padding: 15px 0px !important;}
+    .col.col-sm-m p{color: #fff !important;}
+    .row-flex-end{justify-content: space-around !important;}
+    .main-nav{padding: 10px 0px !important;}
+    .main-nav li{ display: block !important; width: 100% !important; margin: 0px !important; text-align: center !important;}
+    
+    .part2{padding: 0px 10px !important; text-align: center !important;}
+    p.wiseInvestment{font-size: 2rem !important; margin: 0px !important; padding: 0px !important;}
+    p.quoteP{font-size: 14px !important; margin: 0px !important;}
+    .part3{padding-top: 20px !important; padding-left: 10px !important; padding-right: 10px !important;}
+    .letterDomains img{width: 100% !important;}
+    .DomainDetails{padding:10px 0px !important;}
+    .DomainDetails p{color:gray !important; text-align: center !important; margin: 0px !important;}
+    .letterDomains a {text-align: center !important; padding: 20px 0px !important;}
+    .part4{padding-top: 0px !important;}
+    .part4 .row{flex-direction: column !important; text-align: center !important;}
+    .one{width: 100% !important;}
+    .part4 input{ border-top: 2px solid #000 !important; border-bottom: 2px solid #000 !important; border-left: 2px solid #000 !important;}
+    .part4 select{ border-top: 2px solid #000 !important; border-bottom: 2px solid #000 !important; background: transparent !important;}
+    .part4 button{ border-top: 2px solid #000 !important; border-bottom: 2px solid #000 !important; border-right: 2px solid #000 !important;}
+    .part5{background: transparent !important;}
+    form#yellowForm{ width: 100% !important; padding: 0px 10px !important;}
+    form#yellowForm .flex{flex-direction: column !important;}
+    .ThreeInputDivs{padding: 0px !important;}
+    button.bigSubmit{display: none !important;}
+    .btn-smalldevice{ display: block !important; width: 100% !important; padding: 10px !important; background-color:  #f7f7f7; border: 1px solid #000; outline: none !important;margin-top: 10px; margin-bottom: 10px !important;}
+    .part6{padding: 0px 10px !important;}
+    .missionStat{padding: 0px !important;}
+    .cardtwo{ padding: 0px !important; width: 25% !important; text-align: center !important; margin-top: 10% !important;}
+    .cardtwo img{width: 100% !important;}
+    .cardone{ width: 75% !important; text-align: justify !important; padding-right: 30px !important;}
+    .smallYelllow{margin-bottom: 32px !important;}
+    .part7{padding: 20px 10px !important;}
+    .part7 .row{ flex-direction: column !important;}
+    .domainCat{padding-right: 0px !important; width: 100% !important; text-align: center !important;}
+    .domainCat .row{ flex-direction: row !important; text-align: center !important; justify-content: space-around !important;}
+    .monthly{width: 100% !important; text-align: center !important;}
+    .monthly img{margin-left: 0px !important; padding: 0px !important; width: 40% !important;}
+    .part7 form{ width: 100% !important; text-align: center !important;}
+    .extensiveDiv{ padding: 20px 0px !important;}
+    p.boldyellow{margin: 20px 0px !important;}
+    .formDiv{width: 80% !important; margin: auto !important;}
+    .formDiv button {width: 15% !important; height: 50px !important; padding: 10px !important;}
+    .formDiv select {width: 20% !important; height: 50px !important; background: #fff !important;}
+    .formDiv input {width: 65% !important; height: 50px !important;}
+    .part8{ width: 100% !important;}
+    .part8 .row{ flex-wrap: wrap !important;}
+    .part8 .smallcards{ width: 50% !important; padding: 0px 25px !important; margin: 20px 0px 10px 0px !important;}
+    .part9{padding: 10px 10px !important;}
+    .bottomlinks{width: 100% !important; margin: auto !important; text-align: center !important;}
+    .bottomlinks a {font-size: 12px !important; padding-right: 0px !important;}
+    .bottomlinks span{padding: 0px !important;}
+    .part9 .row{ flex-direction: column !important; text-align: center !important;}
+
+
+
+
+    
+
 }
+
+
 
 /* Tablets, iPads (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
-/* Styles */
+
 }
 
 /* Tablets, iPads (landscape) ----------- */
