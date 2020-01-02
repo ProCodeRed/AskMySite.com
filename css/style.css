@@ -29,6 +29,9 @@ ul{margin: 0px; padding: 0px;}
     justify-content: flex-end;
 }
 .container{ max-width: 1170px; margin: auto;}
+img#bannerImage {
+    width: 100%;
+}
 .mainBanner{position: relative;}
 .main {
     position: absolute;
@@ -81,7 +84,7 @@ p.dialoge{
 /* -------------------------------------------------- */
 .part2, .part3{padding-top: 70px;}
 p.wiseInvestment{
-    font-family: 'FontinSans';
+    font-family: 'fontin_sansbold';
     font-size: 45px;
     font-weight: bold;
     line-height: 48px;
@@ -91,7 +94,7 @@ p.wiseInvestment{
     text-shadow: 2px 0px 0px #fff;
 }
 p.quoteP{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'fontin_sansregular';
     font-size: 20px;
     line-height: 29.63px;
     color: #252523;
@@ -141,30 +144,30 @@ p.boldyellow{
     border: none;
     outline: none;
     border-radius: 30px 0px 0px 30px;
-    height: 50px;
+    height: 52px;
 }
 .twocards select {
     padding: 0px 15px;
     border: none;
     outline: none;
     margin: -4px;
-    height: 50px;
+    height: 52px;
     color: #ccc;
 }
 .twocards button {
-    background: transparent;
     outline: none;
     border: none;
-    vertical-align: middle;
-    padding: 0px;
-    margin: -4px;
-    height: 50px;
+    vertical-align: top;
+    height: 52px;
+    background-color: #ebc00f;
+    padding: 10px 20px;
+    border-radius: 0px 30px 30px 0px;
 }
 
-.twocards button img {
+/* .twocards button img {
     width: 90%;
     height: 50px;
-}
+} */
 p.smallYelllow{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -211,6 +214,7 @@ button.bigSubmit{
     outline: none;
     background: transparent;
 }
+.btn-smalldevice{ display: none;}
 /* button.bigSubmit img{ height: 100%;} */
 /* --------------------------------------------- */
 .part6{ background-color: #0f0f0f;}
@@ -234,10 +238,13 @@ p.small{
     color: #525a7b;
 }
 .cardone{width: 70%;}
-.missionStat{padding-top: 50px;}
+.missionStat{ padding: 50px 0px;}
 .cardtwo{padding-top: 60px;}
 /* ------------------------------------------ */
-.part7{background-color: #191a20;}
+.part7 {
+    background-color: #191a20;
+    padding-top: 50px;
+}
 p.yellowmedium{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -250,39 +257,56 @@ p.yellowmedium{
 .part7 a{ text-decoration: none; text-transform: uppercase;}
 .domainCat{width: 50%; padding-right: 80px;}
 .monthly{width: 50%;}
-.monthly img{ margin-left: 30px;}
 .monthly img {
     margin-left: 100px;
+    padding-top: 50px;
 }
-.extensiveDiv{text-align: center;}
-.formDiv input {
-    height: 70px;
-    width: 900px;
+
+.part7 form{ margin:0px;}
+.extensiveDiv {
+    width: 100%;
+    margin: auto;
+    padding: 50px 0px;
+    text-align: center;
+}
+.formDiv {
+    border-left: 10px solid #000;
+    border-top: 10px solid #000;
+    border-right: 10px solid #000;
+    border-bottom: 10px solid #000;
+    border-radius: 50px;
     outline: none;
-    padding: 0px 15px;
-    border: 5px solid #000;
-    border-style: outset;
-    border-width: 10px;
-    border-radius: 30px 0px 0px 30px;
 }
-.formDiv select {
-    height: 70px;
-    /* width: 973px; */
+.formDiv input{
+    height: 65px;
+    vertical-align: bottom;
+    width: 83%;
+    padding: 0px 30px;
+    border: none;
     outline: none;
-    padding: 0px 15px;
-    border: 5px solid #000;
-    border-style: outset;
-    border-width: 10px;
+    border-radius: 50px 0px 0px 50px;
 }
-.formDiv button {
-    height: 70px;
-    /* width: 973px; */
+.formDiv select{
+    height: 65px;
+    vertical-align: bottom;
+    padding: 0px 10px;
+    margin-left: -5px;
+    width: 10%;
+    border: none;
     outline: none;
-    padding: 0px 15px;
-    border: 5px solid #000;
-    border-style: outset;
-    border-width: 10px;
 }
+.formDiv button{
+    height: 65px;
+    vertical-align: bottom;
+    padding: 20px;
+    width: 7%;
+    margin-left: -5px;
+    border: none;
+    outline: none;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #ebc00f;
+}
+
 /* ----------------------------------------- */
 .part8{background-color: #0f0f0f;}
 .smallcards {

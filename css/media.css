@@ -1,0 +1,122 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .main{position: unset !important;}
+    .part1{text-align: center !important;}
+    .upperHeader{display: block !important; width: 100% !important; padding: 10px 0px !important;}
+    .upperHeader p{color: #fff !important; line-height: unset !important; font-size: 12px !important; margin-top: 5px !important; margin-bottom: 0px !important;}
+    .col.col-sm-m{position: absolute !important; top:1% !important; left: 0% !important; right: 0% !important;}
+    .row-flex-end{justify-content: center !important;}
+    .row-flex-end img{width: 40% !important;}
+    .main-nav{padding-top: 20px !important;}
+    .main-nav li{ width: 100% !important; display: block !important; margin: 0px !important;}
+    .main-nav li a{color: #000 !important;}
+
+    .part2, .part3, .part4, .part5{padding: 10px 10px !important; border-top: 1px solid #ebc00f !important;}
+    .part2 p{font-size: 1rem !important; text-align: center !important; line-height: unset !important;}
+    p.wiseInvestment{ color: red !important; font-size: 18px !important;}
+
+
+    .part3{padding: 20px 10px !important;}
+    .part3 .row{ display: block !important;}
+    .part3 .row .letterDomains{ width: 100% !important; text-align: center !important; padding: 10px !important;}
+    .DomainDetails{padding: 10px 0px !important;}
+    .letterDomains a{padding: 0px !important; margin: 5px 0px 10px 0px !important;}
+    .letterDomains .col{ text-align: center !important; display: block !important;}
+    .DomainDetails p{color: #000 !important;}
+    .part4{text-align: center !important;}
+    .part4 .row{ flex-direction: column !important;}
+    .part4 .row .one{ width: 100% !important;}
+    .part4 p{margin: 0px !important; line-height: unset !important; font-size: 1rem !important;}
+    p.smallYelllow{font-size: 10px !important;}
+    .twocards{padding-top: 20px !important; width: 100% !important;}
+    .twocards form{width: 100% !important; text-align:center !important;}
+    .twocards input { width: 50% !important; border: 1px solid #ccc !important}
+    p.boldyellow{padding: 10px 0px !important;}
+    .twocards select{border: 1px solid #ccc !important;}
+    .part5{ width: 100% !important; display: block !important; background: transparent !important;}
+    .sixInputs{ border: 3px solid #000 !important;}
+    .part5 form#yellowForm{ width: 100% !important; display: block !important;}
+    .part5 .flex{ display: block !important;}
+    .part5 .ThreeInputDivs{ display: block !important; width: 100% !important;}
+    .sixInputs input{ width: 100% !important;}
+    button.bigSubmit{ display: none !important;}
+    .btn-smalldevice{ display: block !important; width: 100% !important; padding: 10px !important; background-color:  #f7f7f7; border: 1px solid #000; outline: none !important;margin-top: 10px;}
+    .part6{ padding: 0px 10px !important;}
+    .part6 .row{flex-direction: column !important;}
+    .missionStat{padding: 0px !important;}
+    .cardone{width: 100% !important;}
+    .cardone p{margin: 5px 0px !important; text-align: center !important;}
+    .cardtwo{padding: 10px !important; width: 100% !important; text-align: center !important;}
+    .cardtwo img{ width: 30% !important;}
+    .part7{padding: 20px 10px !important;}
+    .part7 .row{ flex-direction: column !important; text-align: center !important;}
+    .domainCat{width: 100% !important; padding: 0px !important;}
+    .monthly{ width: 100% !important; text-align: center !important;    padding: 10px 0px !important;}
+    .monthly img{ width: 50%; margin: 0px !important; padding: 0px !important;}
+    .extensiveDiv{padding: 10px 0px !important;}
+    p.boldyellow{font-size: 18px !important; line-height: unset !important; margin: 0px !important;color: red !important;}
+    .formDiv button{width: 16% !important;height: 40px !important; padding: 0px !important;}
+    .formDiv select{width: 25% !important;height: 40px !important;}
+    .formDiv input{width: 59% !important; height: 40px !important; padding: 0px 15px !important;}
+    .part8{ padding: 0px 10px !important;}
+    .part8 .row{flex-direction: column !important;}
+    .smallcards{width: 100% !important; padding: 10px 0px !important; margin: 0px !important;}
+    .part9{ padding: 20px 10px !important;}
+    .bottomlinks{text-align: center !important;}
+    .bottomlinks a{font-size: 7px !important; color: #fff !important; padding-right: 0px !important;}
+    .bottomlinks span{padding: 0px 3px !important;}
+    .part9 .row{ flex-direction: column !important; width: 100% !important;}
+    .part9 .row p{ text-align: center !important; margin: 0px !important; font-size: 7px !important; margin: 5px 0px !important;}
+
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* Tablets, iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* Tablets, iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* Tablets, iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
