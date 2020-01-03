@@ -182,6 +182,7 @@ p.smallYelllow{
 .part5{background: linear-gradient(to bottom,  #000 0%,#000 50%,#0f0f0f 50%,#0f0f0f 100%);} /* very imp */
 .sixInputs {
     background-color: #ebc00f;
+    width: 100%;
 }
 .sixInputs input {
     padding: 0px 10px;
@@ -189,8 +190,14 @@ p.smallYelllow{
     border:none;
     outline: none;
 }
-.ThreeInputDivs > div{padding: 10px;}
-form#yellowForm{margin: 0px;width: 72%;}
+input.d3d {
+    width: 100%;
+}
+.ThreeInputDivs > div{padding: 10px;width: 100%;}
+form#yellowForm {
+    margin: 0px;
+    width: 80%;
+}
 .TwoInputDivs {
     width: 100%;
     display: flex;
@@ -200,6 +207,7 @@ form#yellowForm{margin: 0px;width: 72%;}
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    width: 100%;
 }
 input.smallInputs{
     width: 100%;
@@ -212,8 +220,10 @@ input.smallInputs{
 button.bigSubmit{
     border: none;
     outline: none;
+    margin-left: 30px;
     background: transparent;
 }
+/* button.bigSubmit:hover{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);} */
 .btn-smalldevice{ display: none;}
 /* button.bigSubmit img{ height: 100%;} */
 /* --------------------------------------------- */
@@ -255,12 +265,14 @@ p.yellowmedium{
 }
 .part7 li{ list-style-type: none;}
 .part7 a{ text-decoration: none; text-transform: uppercase;}
+.part7 a:hover{color: tomato; border-bottom: 1px solid #fff;}
 .domainCat{width: 50%; padding-right: 80px;}
 .monthly{width: 50%;}
 .monthly img {
     margin-left: 100px;
     padding-top: 50px;
 }
+
 
 .part7 form{ margin:0px;}
 .extensiveDiv {
@@ -278,7 +290,7 @@ p.yellowmedium{
     outline: none;
 }
 .formDiv input{
-    height: 65px;
+    height: 50px;
     vertical-align: bottom;
     width: 83%;
     padding: 0px 30px;
@@ -287,7 +299,7 @@ p.yellowmedium{
     border-radius: 50px 0px 0px 50px;
 }
 .formDiv select{
-    height: 65px;
+    height: 50px;
     vertical-align: bottom;
     padding: 0px 10px;
     margin-left: -5px;
@@ -296,9 +308,9 @@ p.yellowmedium{
     outline: none;
 }
 .formDiv button{
-    height: 65px;
+    height: 50px;
     vertical-align: bottom;
-    padding: 20px;
+    padding: 10px;
     width: 7%;
     margin-left: -5px;
     border: none;
@@ -311,8 +323,13 @@ p.yellowmedium{
 .part8{background-color: #0f0f0f;}
 .smallcards {
     text-align: center;
-    width: 19%;
+    width: 22%;
     margin: 50px 0px;
+    padding: 20px;
+}
+.smallcards:hover{
+    /* box-shadow: 10px 10px 10px rgba(53, 52, 52, 0.5); */
+    box-shadow: 0 4px 8px 0 rgba(53, 52, 52, 0.2), 0 6px 20px 0 rgba(53, 52, 52, 0.19);
 }
 p.whiteP{
     font-family: 'Open Sans', sans-serif;
@@ -332,6 +349,7 @@ p.whiteP{
     text-transform: uppercase;
     padding-right: 5px;
 }
+.bottomlinks a:hover{color: tomato;}
 .bottomlinks span{padding: 0px 5px;}
 .part9 p{
     font-family: 'Lato';
