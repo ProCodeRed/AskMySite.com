@@ -1,7 +1,7 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
+and (min-width : 320px) 
+and (max-width : 480px) {
     .main{position: unset !important;}
     .part1{text-align: center !important;}
     .upperHeader{display: block !important; width: 100% !important; padding: 10px 0px !important;}
@@ -73,8 +73,8 @@ and (max-device-width : 480px) {
 }
 
 @media only screen 
-and (min-device-width : 481px) 
-and (max-device-width : 767px){
+and (min-width : 481px) 
+and (max-width : 767px){
     .main{position: unset !important;}
     .row.upperHeader{ width: 100% !important;}
     .col.col-sm-m{position: absolute !important; top: 3% !important; left: 0% !important; right: 0% !important; text-align: center !important;}
@@ -96,13 +96,15 @@ and (max-device-width : 767px){
     .part4{padding-top: 0px !important;}
     .part4 .row{flex-direction: column !important; text-align: center !important;}
     .one{width: 100% !important;}
-    .part4 input{ border-top: 2px solid #000 !important; border-bottom: 2px solid #000 !important; border-left: 2px solid #000 !important;}
+    .part4 input{width: 70% !important; border-top: 2px solid #000 !important; border-bottom: 2px solid #000 !important; border-left: 2px solid #000 !important;}
     .part4 select{ border-top: 2px solid #000 !important; border-bottom: 2px solid #000 !important; background: transparent !important;}
     .part4 button{ border-top: 2px solid #000 !important; border-bottom: 2px solid #000 !important; border-right: 2px solid #000 !important;}
     .part5{background: transparent !important;}
     form#yellowForm{ width: 100% !important; padding: 0px 10px !important;}
     form#yellowForm .flex{flex-direction: column !important;}
-    .ThreeInputDivs{padding: 0px !important;}
+    .sixInputs {width: 100% !important;}
+    .ThreeInputDivs{padding: 0px !important; width: 100% !important;}
+    .ThreeInputDivs input{width: 100% !important;}
     button.bigSubmit{display: none !important;}
     .btn-smalldevice{ display: block !important; width: 100% !important; padding: 10px !important; background-color:  #f7f7f7; border: 1px solid #000; outline: none !important;margin-top: 10px; margin-bottom: 10px !important;}
     .part6{padding: 0px 10px !important;}
@@ -132,43 +134,71 @@ and (max-device-width : 767px){
     .bottomlinks a {font-size: 12px !important; padding-right: 0px !important;}
     .bottomlinks span{padding: 0px !important;}
     .part9 .row{ flex-direction: column !important; text-align: center !important;}
-
-
-
-
-    
-
 }
 
-
-
-/* Tablets, iPads (portrait and landscape) ----------- */
+/* Tablets, iPads ----------- */
 @media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
+and (min-width : 768px) 
+and (max-width : 1024px) {
+    .main{position: unset !important;}
+    .part1{padding: 20px 10px ! important; position: absolute !important; top: 0 !important; right: 0% !important; left: 0% !important; text-align: center !important;}
+    .upperHeader{padding: 0px !important;}
+    .row.upperHeader { flex-direction: column;}
+    .col.col-sm-m{text-align: center !important;}
+    .row-flex-end{justify-content: space-around !important;}
+    .main-nav li a{color: #fff !important;font-size: 13px !important;}
+    .part2{padding: 0px 10px !important; position: absolute !important; top: 12% !important;}
+    p.wiseInvestment{font-size: 35px !important; line-height: unset !important;}
+    p.quoteP {font-size: 18px !important; margin: 10px 0px !important;}
+    .part3{padding: 20px 10px !important; background-color: wheat !important;}
+    .DomainDetails{padding-top: 20px !important;}
+    .DomainDetails p{ color: #000 !important;}
+    .letterDomains .col{ text-align: justify !important;}
+    .letterDomains a{padding-bottom: 0px !important;}
+    .part4{padding: 20px 10px !important;}
+    .part4 .row{ justify-content: space-around !important;}
+    .twocards.one .col{text-align: center !important;}
+    p.boldyellow{line-height: unset !important; margin: 0px !important;}
+    .part4 p{margin-top: 10px !important;}
+    p.boldyellow{text-align: center !important;}
+    .twocards input{width: 55% !important;}
+    .part4 form{padding-top: 70px !important; margin: 0px !important;}
+    .part4 input{ border-top: 2px solid #000 !important; border-bottom: 2px solid #000 !important; border-left: 2px solid #000 !important;}
+    .part4 select{ border-top: 2px solid #000 !important; border-bottom: 2px solid #000 !important; background: transparent !important;}
+    .part4 button{ border-top: 2px solid #000 !important; border-bottom: 2px solid #000 !important; border-right: 2px solid #000 !important;}
+    .part5{padding: 20px 10px !important; background: transparent !important;}
+    form#yellowForm{width: 100% !important;}
+    .sixInputs{width: 80% !important;}
+    button.bigSubmit{width: 20% !important;}
+    button.bigSubmit img{width: 100% !important; height: 128px !important;}
+    .part6{padding: 0px 10px !important;}
+    .missionStat{padding: 0px !important;}
+    .cardtwo{ padding: 0px !important; width: 25% !important; text-align: center !important; margin-top: 10% !important;}
+    .cardtwo img{width: 100% !important;}
+    .cardone{ width: 75% !important; text-align: justify !important; padding-right: 30px !important;}
+    .smallYelllow{margin-bottom: 32px !important;}
+    .part7{padding: 20px 20px !important;}
+    .part7 form{ width: 100% !important; text-align: center !important;}
+    .domainCat{padding-right: 50px !important;}
+    .extensiveDiv{ padding: 20px 0px !important;}
+    p.boldyellow{margin: 20px 0px !important;}
+    .monthly img{margin-left: 0px !important;}
+    .formDiv{width: 80% !important; margin: auto !important;}
+    .formDiv button {width: 15% !important; height: 50px !important; padding: 10px !important;}
+    .formDiv select {width: 20% !important; height: 50px !important; background: #fff !important;}
+    .formDiv input {width: 65% !important; height: 50px !important;}
+    .part8{ width: 100% !important;}
+    .part8 .row{ flex-wrap: wrap !important;}
+    .part8 .smallcards{ width: 50% !important; padding: 0px 25px !important; margin: 20px 0px 10px 0px !important;}
+    .part9{text-align: center !important;}
+    .part9 .row{justify-content: space-around !important;}
 
-}
-
-/* Tablets, iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
-}
-
-/* Tablets, iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-/* Styles */
 }
 
 /* Desktops and laptops ----------- */
 @media only screen 
-and (min-width : 1224px) {
-/* Styles */
+and (min-width : 1025px) and (max-width:1170px) {
+    
 }
 
 /* Large screens ----------- */
@@ -177,9 +207,9 @@ and (min-width : 1824px) {
 /* Styles */
 }
 
-/* iPhone 4 ----------- */
+/* iPhone 4 -----------
 @media
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
-}
+}*/*/

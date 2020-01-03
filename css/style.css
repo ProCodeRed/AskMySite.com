@@ -91,14 +91,14 @@ p.wiseInvestment{
     color: #252523;
     margin: 5px 0px 0px 0px;
     text-transform: capitalize;
-    text-shadow: 2px 0px 0px #fff;
+    text-shadow: 2px 0px 1px #fff;
 }
 p.quoteP{
     font-family: 'fontin_sansregular';
     font-size: 20px;
     line-height: 29.63px;
     color: #252523;
-    text-shadow: 2px 0px 0px #fff;
+    text-shadow: 2px 0px 1px #fff;
     text-transform: capitalize;
 }
 
